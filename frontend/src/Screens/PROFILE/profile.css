@@ -1,0 +1,231 @@
+.profile {
+    background-color: #111;
+    min-height: 100vh;
+}
+
+.profile-header {
+    height: 50px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.profile-header .container {
+    height: 50px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-header-name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 150px;
+    text-transform: capitalize;
+}
+
+.profile-email-form {
+    border-bottom: 1px solid rgb(59, 59, 59);
+    border-top: 1px solid rgb(59, 59, 59);
+    padding: 10px 0;
+    margin: 70px 10px 0 10px;
+}
+.profile-email-form > * {
+    /* margin: 0 20px; */
+
+}
+.profile-email-form input {
+    height: 55px;
+}
+.profile-email-form label {
+    color: rgb(236, 236, 236);
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.profile-email-form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    margin: 10px auto 0 auto;
+}
+.profile-form-email-attention {
+    display: block;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    color: rgb(233, 54, 54);
+}
+
+.profile-image-form {
+    margin: 40px 0;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileFormImage {
+    visibility: hidden;
+}
+
+.profile-image-form label {
+    margin-top: -80px;
+    margin-bottom: 10px;
+    background-color: rgba(17, 17, 17, 0.623);
+    height: 45px;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.profile-form {
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.profile-form > * > *{
+    border-bottom: 1px solid rgb(51, 51, 51);
+    padding-bottom: 15px;
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-form label {
+    color: rgb(236, 236, 236);
+    width: 150px;
+    font-weight: 600;
+}
+.profile-form input,
+.profile-form select {
+    height: 50px;
+}
+.profile-form .btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 922px) {
+    .profile {
+        background-color: #111;
+        min-height: 100vh;
+        padding-bottom: 100px;
+    }
+    .profile-header .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .profile-header .btn {
+        background-color: rgb(255, 0, 64);
+        color: #fff;
+        font-weight: 600;
+    }
+    .profile-header .btn:hover {
+        background-color: rgb(255, 0, 21);
+        color: rgb(226, 226, 226);
+    }
+    .profile-email-form {
+        border-bottom: 1px solid rgb(59, 59, 59);
+        width: 50%;
+        margin: 150px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .profile-email-form > * {
+        /* margin: 0 20px; */
+        
+    }
+    .profile-email-form input {
+        height: 55px;
+        margin-right: 20px;
+    }
+    .profile-email-form label {
+        color: rgb(236, 236, 236);
+        width: 150px;
+        font-weight: 600;
+        visibility: visible;
+        /* justify-content: center; */
+    }
+
+    .profile-email-form .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        /* height: 40px; */
+    }
+    .profile-form-email-attention {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        /* display: none; */
+        color: rgb(233, 54, 54);
+        /* border-bottom: 1px solid #000; */
+    }
+
+
+
+    .profile-form {
+        border: 1px solid rgb(163, 163, 163);
+        border-radius: 10px;
+
+        width: 50%;
+        margin: 150px auto 0 auto;
+    } 
+    .profile-form * {
+        /* border: 1px solid red; */
+        /* width: 300px; */
+    }
+    .profile-form input,
+    .profile-form select {
+        height: 55px;
+        /* width: 200px; */
+    }
+    .row-fname_lname {
+        display: flex;
+        width: 100%;
+    }
+    .row-fname_lname > * {
+        margin: 20px 20px;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(44, 44, 44);
+    }
+    .row-age_region {
+        display: flex;
+    }
+    .row-age_region > * {
+        margin: 20px 20px;
+        width: 100%;
+        border-bottom: 1px solid rgb(44, 44, 44);
+        padding-bottom: 10px;
+
+    }
+    .row-passwords {
+        display: flex;
+    }
+    .row-passwords > * {
+        margin: 20px 20px;
+        width: 100%;
+        border-bottom: 1px solid rgb(44, 44, 44);
+        padding-bottom: 10px;
+
+    }
+}

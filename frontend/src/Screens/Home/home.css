@@ -1,0 +1,210 @@
+
+.home {
+    /* position: relative; */
+}
+
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home-header-title-1,
+.home-header-title-2 {
+    display: block;
+    text-align: center;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.home-header-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-header-links > * {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-header-links > div  {
+    width: 95%;
+    height: 120px;
+    margin: 10px 0 ;
+}
+.home-header-links span {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 1.3rem;
+}
+.home-header-links .btn {
+    border:none;
+}
+@media (min-width: 768px) {
+
+    .home-header-links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+   
+    }
+    .home-header-links > div  {
+        width: 95%;
+        height: 200px;
+        margin: 10px 0 ;
+    }
+
+}
+@media (min-width: 922px) {
+
+    .home-header-title-1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .home-header-title-2 {
+        font-size: 50px;
+    }
+    .home-header-links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    .home-header-links > div  {
+        width: 95%;
+        height: 200px;
+        margin: 10px 0 ;
+    }
+    .home-header-links span {
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 2rem;
+    }
+    .home-header-title-3 {
+        font-family: 'Ramabhadra', sans-serif;
+
+        width: 250px;
+        text-align: center;
+    }
+    .home-header-title-4 {
+        width: 300px;
+        text-align: center;
+
+    }
+
+}
+@media (min-width: 1200px) {
+
+ 
+    .home-header-links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+   
+    }
+    .home-header-links > div  {
+        width: 95%;
+        height: 250px;
+        margin: 10px 0 ;
+    }
+    .home-header-links span {
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 2.5rem;
+    }
+    .home-header-title-3 {
+        font-family: 'Ramabhadra', sans-serif;
+
+        width: 260px;
+        text-align: center;
+    }
+    .home-header-title-4 {
+        width: 340px;
+        text-align: center;
+
+    }
+
+}
+/* ////////////////////////////////////////////////////////////// */
+
+.home-top-stories {
+    height: 100vh;
+    background-color: #222;
+    border-bottom: 5px solid rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-top-stories-title {
+    color: #eee;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+/* ////////////////////////////////////////////////////////////// */
+.home-top-story-carousel {
+    display: flex;
+    justify-content: center;
+}
+.home-latest-stories {
+    height: 100vh;
+    background-color: #222;
+    border-bottom: 5px solid rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-latest-stories-title {
+    color: #eee;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.home-top-story-large {
+    display: none;
+}
+/* ////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////// */
+
+@media (min-width: 922px) {
+    .home-top-story-carousel,
+    .home-latest-story-carousel {
+        display: none;
+    }
+    .home-top-story-large {
+        display: flex;
+    }
+
+    .home-top-stories-title {
+        /* padding-top: 100px; */
+        font-size: 3rem;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    .home-top-stories-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* margin-top: 50px; */
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    .home-latest-stories-title {
+        font-size: 3rem;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    .home-latest-stories-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+}

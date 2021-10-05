@@ -1,0 +1,77 @@
+
+.my-story {
+    border: 1px solid rgb(0, 66, 221);
+    border-radius: 10px;
+    margin: 30px 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+.my-story > * {
+    /* border: 2px solid rgb(238, 20, 20); */
+    color: #ddd;
+    flex-grow: 1;
+    text-align: center;
+}
+.my-story-title {
+    color: #ddd;
+    /* background-color: #777; */
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.my-story-released {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-story .btn {
+    background-color: rgb(255, 31, 61);
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+    color: #eee;
+    font-weight: 600;
+
+}
+.my-story .btn:hover {
+    background-color: rgb(255, 10, 43);
+    color: rgb(221, 221, 221);
+}
+
+@media (min-width: 768px) {
+    .my-story {
+        border: 1px solid rgb(0, 66, 221);
+        border-radius: 10px;
+        margin: 30px 10px;
+        width: 250px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        background-color: #333;
+    }
+}
+
+@media (min-width: 922px) {
+    .my-story {
+        border: 1px solid rgb(0, 66, 221);
+        border-radius: 10px;
+        margin: 30px 10px;
+        width: 250px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+    }
+}

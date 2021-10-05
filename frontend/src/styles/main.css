@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&family=Rubik&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Nunito&family=Roboto:wght@500&family=Rubik&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Nunito&family=Poppins:wght@500&family=Roboto:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+/* font-family: 'Signika Negative', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+/* font-family: 'Ramabhadra', sans-serif; */
+
+/* @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("C:\Users\Ali\Desktop\Projects\Among-Stories\frontend\src\styles\SF-Compact-Text-Semibold.otf");
+} */
+/* @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("C:\Users\Ali\Desktop\Projects\Among-Stories\frontend\src\styles\SF-UI-Text-Medium.otf");
+}
+
+@font-face {
+    font-family: "SF-Compact-Display-Regular";
+    font-weight: 400;
+    src: url("C:\Users\Ali\Desktop\Projects\Among-Stories\frontend\src\styles\SF-Compact-Display-Regular.otf");
+}
+@font-face {
+    font-family: "SF-Compact-Display-Medium";
+    font-weight: 400;
+    src: url("C:\Users\Ali\Desktop\Projects\Among-Stories\frontend\src\styles\SF-Compact-Display-Medium.otf");
+}
+@font-face {
+    font-family: "SF-UI-Display-Regular";
+    font-weight: 400;
+    src: url("C:\Users\Ali\Desktop\Projects\Among-Stories\frontend\src\styles\SF-UI-Display-Regular.ttf");
+} */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}

@@ -1,0 +1,106 @@
+.all-story {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* text-align: center; */
+    border-radius: 10px;
+    width: 95%;
+    /* flex-grow: 1; */
+    height: 280px;
+    margin: 40px auto;
+    background-color: rgb(63, 63, 63);
+}
+
+.all-story-title_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.all-story-rating {
+    padding-right: 10px;
+}
+
+.all-story-title {
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 200px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.all-story-author-image_name {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 300px;
+    margin: 20px auto 10px auto;
+}
+
+.all-story-details {
+
+    display: flex;
+    margin: 10px 0;
+    
+}
+.all-story-details > *  {
+    flex-grow: 1;
+}
+
+.all-story-details > * > * {
+    display: block;
+    text-align: center;
+    color: #bbb;
+    font-weight: 600;
+    margin: 0 10px;
+    opacity: 0.7;
+}
+
+.all-story-details > * > *:first-child {
+    border-bottom: 1px solid rgb(42, 42, 42);
+}
+
+.all-story-author-name {
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    /* width: 300px; */
+    /* text-align: left; */
+    /* margin: 0 auto; */
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.all-story-author_links-read {
+    background-color: rgb(255, 40, 75);
+    margin-top: 20px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 50px;
+    color: #eee;
+
+}
+
+@media (min-width: 922px) {
+    .all-story {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 300px;
+        height: 280px;
+        background-color: rgb(63, 63, 63);
+    }
+}

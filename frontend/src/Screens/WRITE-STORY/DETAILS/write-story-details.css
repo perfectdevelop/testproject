@@ -1,0 +1,57 @@
+.write-story-details {
+    min-height: 100vh;
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.write-story-details-form {
+    border: 1px solid red;
+    margin: 0 5px;
+}
+.write-story-details-form label {
+    visibility: hidden;
+}
+
+.write-story-details-form input,
+.write-story-details-form select {
+    height: 55px;
+    width: 95%;
+    background-color: rgb(47, 47, 47);
+    color: #ddd;
+    margin: 0 auto;
+}
+.write-story-details-form textarea {
+    min-width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    min-height: 150px;
+    max-height: 150px;
+
+    background-color: rgba(47, 47, 47, 0.678);
+    color: #ddd;
+
+}
+
+
+.write-story-details-form .btn {
+    display: block;
+    margin: 10px auto;
+}
+
+@media (min-width: 922px) {
+    .write-story-details-form {
+        border: 1px solid rgb(68, 68, 68);
+        border-radius: 10px;
+        margin: 0 5px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .write-story-details-form-details {
+        display: flex;
+        margin: 30px 15px;
+
+    }
+    .write-story-details-form-details > * {
+        flex-grow: 1;
+    }
+}

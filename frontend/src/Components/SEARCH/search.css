@@ -1,0 +1,11 @@
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    height: 40px;
+    background-color: rgba(15, 15, 15, 0.863);
+    color: #000;
+    border: 1px solid rgb(63, 63, 63);
+}

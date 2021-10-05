@@ -1,0 +1,47 @@
+.my-stories {
+    min-height: 100vh;
+    background-color: #222;
+}
+.my-stories-header {
+    height: 50px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+}
+.my-stories-header .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-stories-header-title {
+    color: #eee;
+    text-transform: capitalize;
+}
+
+.my-stories-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .my-stories-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    } 
+}
+
+@media (min-width: 922px) {
+    .my-stories-list {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+    } 
+}

@@ -1,0 +1,71 @@
+.latest-story {
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.latest-story > * {
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.latest-story-title {
+    color: #ddd;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* margin-latest: 20px; */
+    display: block;
+    width: 300px;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+}
+
+
+
+
+.latest-story-rating {
+    margin-top: 30px;
+    display: block;
+}
+
+.latest-story-author {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.latest-story-author-name {
+    color: #ddd;
+    text-transform: capitalize;
+    margin-left: 10px;  
+    
+}
+
+.latest-story-link-read {
+    background-color: rgb(255, 17, 77);
+    width: 200px;
+}
+
+@media (min-width: 922px) {
+      
+    .latest-story-author-name {
+        color: #ddd;
+        text-transform: capitalize;
+        margin-left: 10px;  
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 150px;
+
+    }  
+}

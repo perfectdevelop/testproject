@@ -1,0 +1,12 @@
+.stories {
+    background-color: #222;
+    min-height: 352px;
+}
+
+.stories-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
